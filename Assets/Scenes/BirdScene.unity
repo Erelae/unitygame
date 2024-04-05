@@ -169,6 +169,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pipe: {fileID: 7569583350916075513, guid: c89d09d7fe3b045d38cf29526a5a397c, type: 3}
   spawnRate: 2
+  heightOffset: 10
 --- !u!1 &994166686
 GameObject:
   m_ObjectHideFlags: 0
@@ -327,9 +328,9 @@ CircleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.07, y: -0.51}
+  m_Offset: {x: -0.07, y: -0.54}
   serializedVersion: 2
-  m_Radius: 2.2
+  m_Radius: 2.05
 --- !u!50 &1565237037
 Rigidbody2D:
   serializedVersion: 4
