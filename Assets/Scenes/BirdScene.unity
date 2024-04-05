@@ -167,6 +167,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e465cd0558e214684ae50fc34b6e2ff0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  pipe: {fileID: 7569583350916075513, guid: c89d09d7fe3b045d38cf29526a5a397c, type: 3}
+  spawnRate: 2
 --- !u!1 &994166686
 GameObject:
   m_ObjectHideFlags: 0
@@ -292,7 +294,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   myRigidbody: {fileID: 1565237037}
-  flapStrength: 0
+  flapStrength: 10
 --- !u!58 &1565237036
 CircleCollider2D:
   m_ObjectHideFlags: 0
